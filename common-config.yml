@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: goods-provider
   datasource:                           #设置数据源信息
     type: com.alibaba.druid.pool.DruidDataSource  #设置数据库连接池的类型
     driver-class-name: org.gjt.mm.mysql.Driver  #设置数据库驱动
